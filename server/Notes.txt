@@ -1,0 +1,29 @@
+FLAGS ON PACKAGE JSON
+* transpile-only : just convert ts to js, without check errors.
+* ignore-watch : non convert code from a specific folder.
+* respawn : automatic restart application.
+
+DEPENDENCIES
+* express : microframework, - get a few ready functionalities.
+** listen : hear a request http.
+** dont understand json, - app.use(express.json())
+
+HTTP METHODS
+- get : search/list
+- post : create
+- put : update
+- delete
+
+REQUESTS
+- request body : data to update/create a new register.
+- route params : identify which resource update or delete.
+    * /users/:id - ":" to params
+- query params : pagination, filters, sort, etc
+
+# TTP
+* knex : write query SQL using js
+    ** order of files matter.
+* sqlite3 : driver sqlite
+* migrations : database versioning
+    ** like a git from database. Check new upgrades on db.
+# End TIP
