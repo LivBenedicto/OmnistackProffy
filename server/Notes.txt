@@ -26,4 +26,5 @@ REQUESTS
 * sqlite3 : driver sqlite
 * migrations : database versioning
     ** like a git from database. Check new upgrades on db.
+* "yarn add cors" : cors allows different addresses to access the api 
 # End TIP
